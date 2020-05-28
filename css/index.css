@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import "main.css";
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+div {
+  text-align: center;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  white-space: nowrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.plane {
+  max-width: 100%;
+  position: relative;
+  z-index: 7;
+  top: 90px;
+  left: -390px;
+}
+
+.phone {
+  position: relative;
+  z-index: 1;
+  margin-left: -500px;
+  margin-bottom: -606px;
+}
+
+.ment {
+  text-align: center;
+  position: relative;
+  right: -360px;
+  top: -100px;
+}
+
+.line {
+  text-align: center;
+  position: relative;
+  right: -360px;
+  top: -60px;
+}
+
+.ment2 {
+  text-align: center;
+  position: relative;
+  right: -360px;
+  top: -30px;
+}
+
+.download {
+  text-align: center;
+  position: relative;
+  right: -360px;
+  z-index: 600;
+}
+
+.back1 {
+  max-width: 100%;
+  z-index: -5;
+  position: relative;
+  text-align: center;
+}
+
+.back2 {
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  z-index: 5;
+  margin-top: -133px;
+}
+
+.yellow {
+  background-color: #ffcc1a;
+  width: 100%;
+  margin-top: -2px;
+  z-index: 20;
+}
+
+.logo {
+  margin-top: 0.5cm;
+}
+
+/* Tablet &amp; Desktop Device */
+@media all and (min-width: 768px) {
+}
+
+/* Desktop Device */
+@media all and (min-width: 1025px) {
+}
